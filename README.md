@@ -8,11 +8,15 @@ MyPokedex aim to create a sqlite database of the data of the first generation of
   - Go to [the code for extracting data](./data/parser/crawl_pokedex_list.js "the code for extracting data")
   - Execute the code in the browser console
   - The result is here: [pokedex_list.json](./data/pokedex_list.json "pokedex_list.json")
+  
+  ![](images/pokemon_list_json.png)
 
 # 2: Get the MN list and related pokemons
 - Similar as in the first step this code will get the mn data and related list one at a time
 - Go to every MN page and get the json
 - Join in one single file and you will obtain this: [MN_list.json](./data/MN_list.json "MN_list.json")
+
+![](images/mn_list_json.png)
 
 
 # 3: Populate database
@@ -25,7 +29,7 @@ MyPokedex aim to create a sqlite database of the data of the first generation of
 This is done in node.js in the file [app.js](app.js "app.js")
 
 This is the ER of the database:
-![](ERDiagram.png)
+![](images/ERDiagram.png)
 
 
 # RESULT
