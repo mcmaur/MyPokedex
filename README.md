@@ -28,5 +28,5 @@ This is the ER of the database:
 ![](ERDiagram.png)
 
 
-###RESULT
+# RESULT
 The generated database is available here: [sqliteDatabase](pokebase.db "sqliteDatabase")
