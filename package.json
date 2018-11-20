@@ -1,0 +1,14 @@
+{
+  "name": "poke",
+  "version": "1.0.0",
+  "description": "create sqlite database for pokem first generation",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Mauro Cerbai",
+  "license": "MIT",
+  "dependencies": {
+    "better-sqlite3": "^5.0.1"
+  }
+}
